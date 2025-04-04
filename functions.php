@@ -18,9 +18,18 @@ add_action('after_setup_theme', 'jime_port_setup');
 
 // スタイルシートとスクリプトの読み込み
 function jime_port_scripts() {
+    // Swiper CSS
+    wp_enqueue_style('swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+    
+    // テーマのスタイルシート
     wp_enqueue_style('jime-port-style', get_stylesheet_uri());
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-    wp_enqueue_script('jime-port-script', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0', true);
+    
+    // Swiper JS
+    wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), null, true);
+    
+    // テーマのスクリプト
+    wp_enqueue_script('jime-port-script', get_template_directory_uri() . '/js/main.js', array('jquery', 'swiper-js'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'jime_port_scripts');
 

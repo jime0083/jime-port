@@ -10,15 +10,19 @@
 
 <header class="site-header">
     <div class="container">
-        <nav class="main-navigation">
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'primary',
-                'menu_class' => 'nav-menu',
-                'container' => false,
-            ));
-            ?>
-        </nav>
+        <div class="header-content">
+            <div class="site-logo">
+                <a href="<?php echo esc_url(home_url('/')); ?>">JIME</a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="nav-menu">
+                    <li><a href="<?php echo esc_url(home_url('/#profile')); ?>">Profile</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#work')); ?>">Work</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#portfolio')); ?>">Portfolio</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#contact')); ?>">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 
