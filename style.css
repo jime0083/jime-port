@@ -1,0 +1,87 @@
+/*
+Theme Name: Jime Port
+Theme URI: https://example.com/jime-port
+Author: Your Name
+Author URI: https://example.com
+Description: フリーランスエンジニアのポートフォリオサイト用テーマ
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jime-port
+*/
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #6b48ff, #ff4848);
+    color: white;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills {
+    padding: 5rem 0;
+    background: #f9f9f9;
+}
+
+.skill-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 5rem 0;
+}
+
+.project-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 5rem 0;
+    background: #f9f9f9;
+}
+
+/* Footer */
+.site-footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+} 
