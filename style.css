@@ -1007,3 +1007,123 @@ body {
         font-size: 14px;
     }
 }
+
+/* Contact Description Section */
+.contact-description-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-description-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-description-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .contact-description-section {
+        padding: 40px 0;
+    }
+
+    .contact-description-text {
+        font-size: 16px;
+    }
+}
+
+/* Development Service Section */
+.development-service {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.development-service .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.development-service-header {
+    margin-bottom: 40px;
+}
+
+.development-service-title {
+    font-size: 2rem;
+    color: #1e90ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.development-service-subtitle {
+    font-size: 1rem;
+    color: #333;
+}
+
+.development-service-content {
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.development-achievements {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.achievement-section {
+    flex: 1;
+}
+
+.achievement-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1e90ff;
+}
+
+.achievement-list {
+    list-style: none;
+    padding: 0;
+}
+
+.achievement-list li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.achievement-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background: #1e90ff;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .development-service {
+        padding: 60px 0;
+    }
+
+    .development-service-title {
+        font-size: 1.8rem;
+    }
+
+    .development-achievements {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
