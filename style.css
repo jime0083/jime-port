@@ -105,7 +105,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .hero-content {
@@ -212,9 +212,18 @@ body {
     text-align: center;
 }
 
+.top-work-title{
+    text-align: center;
+}
+
+.top-work-title h2{
+    font-size: 32px;
+}
+
 .contact .section-title {
     color: #fff;
     margin-bottom: 2rem;
+    font-size: 32px !important;
 }
 
 .contact-description {
@@ -524,8 +533,6 @@ body {
 }
 
 .swiper-slide {
-    width: calc(33.333% - 40px);
-    max-width: 350px;
 }
 
 .work-item {
@@ -858,14 +865,14 @@ body {
 
 /* コンタクトフォーム1のスタイル */
 .contact-1-section {
-    padding: 80px 0;
+    /* padding: 80px 0; */
     background-color: #fff;
 }
 
 .contact-1-container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding:20px 0 50px 0;
 }
 
 .contact-1-description {
@@ -1010,8 +1017,7 @@ body {
 
 /* Contact Description Section */
 .contact-description-section {
-    padding: 60px 0;
-    background-color: #f9f9f9;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -1023,6 +1029,7 @@ body {
 
 .contact-description-text {
     font-size: 18px;
+    font-weight: bold;
     color: #333;
     line-height: 1.8;
     margin-bottom: 0;
@@ -1038,92 +1045,207 @@ body {
     }
 }
 
-/* Development Service Section */
-.development-service {
-    padding: 80px 0;
-    background: #fff;
+/* Work Description Section */
+.work-description-section {
+    padding: 50px 0;
+    text-align: center;
 }
 
-.development-service .container {
-    max-width: 1200px;
+.work-description-section .container {
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.development-service-header {
-    margin-bottom: 40px;
-}
-
-.development-service-title {
-    font-size: 2rem;
-    color: #1e90ff;
-    margin-bottom: 20px;
+.work-description-text {
+    font-size: 18px;
     font-weight: bold;
-}
-
-.development-service-subtitle {
-    font-size: 1rem;
     color: #333;
+    line-height: 1.8;
+    margin-bottom: 0;
 }
 
-.development-service-content {
-    margin-bottom: 40px;
-    line-height: 1.8;
+@media (max-width: 768px) {
+    .work-description-section {
+        padding: 40px 0;
+    }
+
+    .work-description-text {
+        font-size: 16px;
+    }
+}
+
+/* Development Service Section */
+.development-service-section {
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+    padding: 80px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.service-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+}
+
+.service-image img {
+    width: 700px;
+    object-fit: cover;
+}
+
+.development-service-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: calc(40% - 50px);
+    padding-right: 20px;
+}
+
+.service-content {
+    position: relative;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.service-title {
+    font-size: 20px;
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+.service-title-jp {
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
     color: #666;
 }
 
-.development-achievements {
-    display: flex;
-    gap: 40px;
-    margin-top: 60px;
-}
-
-.achievement-section {
-    flex: 1;
-}
-
-.achievement-title {
-    font-size: 1.2rem;
+.service-description {
+    font-size: 16px;
+    line-height: 1.8;
     color: #333;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    text-align: justify;
+}
+
+
+
+.current-achievements,
+.past-achievements {
+    position: relative;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 90%;
+}
+
+.current-achievements h3,
+.past-achievements h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
     border-bottom: 2px solid #1e90ff;
 }
 
-.achievement-list {
+.current-achievements ul,
+.past-achievements ul {
     list-style: none;
     padding: 0;
 }
 
-.achievement-list li {
-    margin-bottom: 15px;
-    padding-left: 20px;
+.current-achievements li,
+.past-achievements li {
     position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
     line-height: 1.6;
+    color: #666;
 }
 
-.achievement-list li::before {
+.current-achievements li::before,
+.past-achievements li::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 10px;
-    width: 8px;
-    height: 8px;
-    background: #1e90ff;
+    top: 0.7em;
+    width: 6px;
+    height: 6px;
+    background-color: #1e90ff;
     border-radius: 50%;
 }
 
+@media (max-width: 992px) {
+    .service-title {
+        font-size: 2rem;
+    }
+
+    .service-title-jp {
+        font-size: 1.5rem;
+    }
+
+    .development-service-section .container {
+        padding-left: 20px;
+    }
+
+    .service-image {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .service-content {
+        padding: 30px;
+    }
+}
+
 @media (max-width: 768px) {
-    .development-service {
+    .development-service-section {
         padding: 60px 0;
     }
 
-    .development-service-title {
+    .service-image {
+        height: 200px;
+    }
+
+    .service-title {
         font-size: 1.8rem;
     }
 
-    .development-achievements {
-        flex-direction: column;
+    .service-title-jp {
+        font-size: 1.3rem;
+    }
+
+    .service-description {
+        font-size: 14px;
+        margin-bottom: 3rem;
+    }
+
+    .current-achievements h3,
+    .past-achievements h3 {
+        font-size: 1.3rem;
+    }
+
+    .current-achievements,
+    .past-achievements {
+        padding: 20px;
+    }
+
+    .achievements-container {
         gap: 30px;
+    }
+
+    .service-content {
+        padding: 20px;
     }
 }

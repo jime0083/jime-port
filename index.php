@@ -44,7 +44,9 @@
 
 <section class="work-top fade-in-section" id="work">
     <div class="container">
-        <h2 class="section-title">Work</h2>
+        <div class="top-work-title">
+            <h2 class="section-title">Work</h2>
+        </div>
         <div class="work-slider">
             <div class="swiper work-swiper">
                 <div class="swiper-wrapper">

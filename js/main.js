@@ -43,6 +43,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Top Image Slider
+    const topSwiper = new Swiper('.top-swiper', {
+        loop: true,
+        speed: 1000,
+        effect: 'fade',
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        fadeEffect: {
+            crossFade: true
+        }
+    });
+
     // モーダル処理
     const workSlides = document.querySelectorAll('.swiper-slide[data-modal]');
     const modals = document.querySelectorAll('.modal');
