@@ -967,8 +967,6 @@ body {
     }
 } 
 
-
-
 /* コンタクトフォーム1のスタイル */
 .contact-1-section {
     /* padding: 80px 0; */
@@ -1092,7 +1090,11 @@ body {
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
     .contact-1-section {
-        padding: 60px 0;
+        padding:  0;
+    }
+
+    .contact-1-container {
+        width: 90%;
     }
 
     .contact-1-description {
@@ -1106,12 +1108,14 @@ body {
 
     .contact-1-label {
         font-size: 14px;
+        margin-top: 30px;
     }
 
     .contact-1-input,
     .contact-1-textarea {
         font-size: 14px;
         padding: 12px;
+        margin-top: 10px;
     }
 
     .contact-1-submit {
@@ -1143,7 +1147,7 @@ body {
 
 @media (max-width: 768px) {
     .contact-description-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
 
     .contact-description-text {
