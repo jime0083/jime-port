@@ -17,7 +17,7 @@ get_header(); ?>
 
 <div class="development-service-section ">
     <div class="service-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/codeing2.jpg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg">
     </div>
     
     <div class="container">
@@ -41,7 +41,7 @@ get_header(); ?>
 
 <div class="development-service-section fade-in-section">
     <div class="service-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/work.jpg" alt="開発ミーティング">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/enginer2.jpg" >
     </div>
     
     <div class="container">

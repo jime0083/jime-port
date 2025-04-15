@@ -1,5 +1,24 @@
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('.site-header');
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const mainNavigation = document.querySelector('.main-navigation');
+    
+    // ハンバーガーメニューの制御
+    hamburgerMenu.addEventListener('click', function() {
+        this.classList.toggle('active');
+        mainNavigation.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+    });
+
+    // メニューリンクをクリックしたらメニューを閉じる
+    const menuLinks = document.querySelectorAll('.nav-menu a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburgerMenu.classList.remove('active');
+            mainNavigation.classList.remove('active');
+            document.body.classList.remove('menu-open');
+        });
+    });
     
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -34,9 +53,11 @@ document.addEventListener('DOMContentLoaded', function() {
             prevEl: '.work-prev',
         },
         breakpoints: {
+            // 768px以上の場合
             768: {
                 slidesPerView: 2,
             },
+            // 1024px以上の場合
             1024: {
                 slidesPerView: 3,
             }
