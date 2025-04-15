@@ -16,6 +16,7 @@
             </div>
             <nav class="main-navigation">
                 <ul class="nav-menu">
+                    <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
                     <li><a href="<?php echo esc_url(home_url('/profile')); ?>">Profile</a></li>
                     <li><a href="<?php echo esc_url(home_url('/work')); ?>">Work</a></li>
                     <li><a href="<?php echo esc_url(home_url('/portfolio')); ?>">Portfolio</a></li>
