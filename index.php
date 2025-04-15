@@ -129,157 +129,6 @@
             <div class="swiper-button-next work-next"></div>
         </div>
     </div>
-
-    <!-- モーダルウィンドウ -->
-    <div class="modal" id="work1">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/pc1.jpg" alt="Webアプリケーション開発">
-                </div>
-                <div class="modal-info">
-                    <h3>Webアプリケーション開発</h3>
-                    <p class="modal-description">ユーザーフレンドリーなタスク管理アプリケーションの開発</p>
-                    <div class="modal-tech">
-                        <h4>使用技術</h4>
-                        <ul>
-                            <li>フロントエンド: Vue.js, Vuex</li>
-                            <li>スタイリング: SCSS, Tailwind CSS</li>
-                            <li>バックエンド: Node.js, Express</li>
-                            <li>データベース: MongoDB</li>
-                            <li>開発環境: Docker, Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="work2">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/pc2.jpg" alt="コーポレートサイト制作">
-                </div>
-                <div class="modal-info">
-                    <h3>コーポレートサイト制作</h3>
-                    <p class="modal-description">モダンで高パフォーマンスな企業サイトの制作</p>
-                    <div class="modal-tech">
-                        <h4>使用技術</h4>
-                        <ul>
-                            <li>CMS: WordPress</li>
-                            <li>テーマ開発: PHP, JavaScript</li>
-                            <li>スタイリング: SCSS</li>
-                            <li>プラグイン: ACF Pro, Contact Form 7</li>
-                            <li>開発環境: Local by Flywheel, Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="work3">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="LP制作">
-                </div>
-                <div class="modal-info">
-                    <h3>LP制作</h3>
-                    <p class="modal-description">高いコンバージョン率を実現するランディングページの制作</p>
-                    <div class="modal-tech">
-                        <h4>使用技術</h4>
-                        <ul>
-                            <li>フロントエンド: HTML5, CSS3</li>
-                            <li>インタラクション: JavaScript, jQuery</li>
-                            <li>レスポンシブデザイン: Media Queries</li>
-                            <li>アニメーション: GSAP</li>
-                            <li>開発環境: VS Code, Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="work4">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="ECサイト開発">
-                </div>
-                <div class="modal-info">
-                    <h3>ECサイト開発</h3>
-                    <p class="modal-description">カスタマイズ性の高いECサイトの開発とデザイン</p>
-                    <div class="modal-tech">
-                        <h4>使用技術</h4>
-                        <ul>
-                            <li>プラットフォーム: Shopify</li>
-                            <li>カスタマイズ: Liquid, JavaScript</li>
-                            <li>スタイリング: SCSS</li>
-                            <li>決済システム: Stripe連携</li>
-                            <li>開発環境: Shopify CLI, Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="work5">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/enginer2.jpg" alt="SNSアプリ開発">
-                </div>
-                <div class="modal-info">
-                    <h3>SNSアプリ開発</h3>
-                    <p class="modal-description">リアルタイムコミュニケーションを実現するSNSアプリケーション</p>
-                    <div class="modal-tech">
-                        <h4>使用技術</h4>
-                        <ul>
-                            <li>フロントエンド: React, Redux</li>
-                            <li>バックエンド: Firebase</li>
-                            <li>リアルタイム通信: WebSocket</li>
-                            <li>UI/UXデザイン: Material-UI</li>
-                            <li>開発環境: Create React App, Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="work6">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="予約システム開発">
-                </div>
-                <div class="modal-info">
-                    <h3>予約システム開発</h3>
-                    <p class="modal-description">使いやすさを重視した予約管理システム</p>
-                    <div class="modal-tech">
-                        <h4>使用技術</h4>
-                        <ul>
-                            <li>バックエンド: Laravel</li>
-                            <li>フロントエンド: Vue.js, Vuex</li>
-                            <li>データベース: MySQL</li>
-                            <li>認証: Laravel Sanctum</li>
-                            <li>開発環境: Docker, Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="contact fade-in-section">
@@ -294,5 +143,156 @@
         </div>
     </div>
 </section>
+
+<!-- モーダルウィンドウ -->
+<div class="modal" id="work1">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pc1.jpg" alt="Webアプリケーション開発">
+            </div>
+            <div class="modal-info">
+                <h3>Webアプリケーション開発</h3>
+                <p class="modal-description">ユーザーフレンドリーなタスク管理アプリケーションの開発</p>
+                <div class="modal-tech">
+                    <h4>使用技術</h4>
+                    <ul>
+                        <li>フロントエンド: Vue.js, Vuex</li>
+                        <li>スタイリング: SCSS, Tailwind CSS</li>
+                        <li>バックエンド: Node.js, Express</li>
+                        <li>データベース: MongoDB</li>
+                        <li>開発環境: Docker, Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="work2">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pc2.jpg" alt="コーポレートサイト制作">
+            </div>
+            <div class="modal-info">
+                <h3>コーポレートサイト制作</h3>
+                <p class="modal-description">モダンで高パフォーマンスな企業サイトの制作</p>
+                <div class="modal-tech">
+                    <h4>使用技術</h4>
+                    <ul>
+                        <li>CMS: WordPress</li>
+                        <li>テーマ開発: PHP, JavaScript</li>
+                        <li>スタイリング: SCSS</li>
+                        <li>プラグイン: ACF Pro, Contact Form 7</li>
+                        <li>開発環境: Local by Flywheel, Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="work3">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="LP制作">
+            </div>
+            <div class="modal-info">
+                <h3>LP制作</h3>
+                <p class="modal-description">高いコンバージョン率を実現するランディングページの制作</p>
+                <div class="modal-tech">
+                    <h4>使用技術</h4>
+                    <ul>
+                        <li>フロントエンド: HTML5, CSS3</li>
+                        <li>インタラクション: JavaScript, jQuery</li>
+                        <li>レスポンシブデザイン: Media Queries</li>
+                        <li>アニメーション: GSAP</li>
+                        <li>開発環境: VS Code, Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="work4">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="ECサイト開発">
+            </div>
+            <div class="modal-info">
+                <h3>ECサイト開発</h3>
+                <p class="modal-description">カスタマイズ性の高いECサイトの開発とデザイン</p>
+                <div class="modal-tech">
+                    <h4>使用技術</h4>
+                    <ul>
+                        <li>プラットフォーム: Shopify</li>
+                        <li>カスタマイズ: Liquid, JavaScript</li>
+                        <li>スタイリング: SCSS</li>
+                        <li>決済システム: Stripe連携</li>
+                        <li>開発環境: Shopify CLI, Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="work5">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/enginer2.jpg" alt="SNSアプリ開発">
+            </div>
+            <div class="modal-info">
+                <h3>SNSアプリ開発</h3>
+                <p class="modal-description">リアルタイムコミュニケーションを実現するSNSアプリケーション</p>
+                <div class="modal-tech">
+                    <h4>使用技術</h4>
+                    <ul>
+                        <li>フロントエンド: React, Redux</li>
+                        <li>バックエンド: Firebase</li>
+                        <li>リアルタイム通信: WebSocket</li>
+                        <li>UI/UXデザイン: Material-UI</li>
+                        <li>開発環境: Create React App, Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="work6">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="予約システム開発">
+            </div>
+            <div class="modal-info">
+                <h3>予約システム開発</h3>
+                <p class="modal-description">使いやすさを重視した予約管理システム</p>
+                <div class="modal-tech">
+                    <h4>使用技術</h4>
+                    <ul>
+                        <li>バックエンド: Laravel</li>
+                        <li>フロントエンド: Vue.js, Vuex</li>
+                        <li>データベース: MySQL</li>
+                        <li>認証: Laravel Sanctum</li>
+                        <li>開発環境: Docker, Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php get_footer(); ?> 

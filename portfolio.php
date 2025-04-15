@@ -58,25 +58,6 @@ get_header(); ?>
                 </div>
             </a>
 
-            <a href="<?php echo esc_url(home_url('/portfolio/mobile-app')); ?>" class="portfolio-card">
-                <div class="portfolio-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/iphone.jpg" alt="モバイルアプリ">
-                </div>
-                <div class="portfolio-content">
-                    <h3>Mobile App</h3>
-                    <p>スマートフォン向けアプリケーション開発の実績を紹介します。</p>
-                </div>
-            </a>
-
-            <a href="<?php echo esc_url(home_url('/portfolio/system-development')); ?>" class="portfolio-card">
-                <div class="portfolio-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="システム開発">
-                </div>
-                <div class="portfolio-content">
-                    <h3>System Development</h3>
-                    <p>企業向けシステム開発の実績を紹介します。</p>
-                </div>
-            </a>
         </div>
     </div>
 </div>

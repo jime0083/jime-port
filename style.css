@@ -687,23 +687,26 @@ body {
     z-index: 2000;
     opacity: 0;
     transition: opacity 0.3s ease;
+    overflow-y: auto;
 }
 
 .modal.show {
-    display: block;
+    display: flex;
     opacity: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-content {
     position: relative;
     width: 90%;
     max-width: 1000px;
-    margin: 50px auto;
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
     transform: translateY(-20px);
     transition: transform 0.3s ease;
+    margin: 20px;
 }
 
 .modal.show .modal-content {
