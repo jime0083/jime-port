@@ -17,11 +17,9 @@ get_header(); ?>
             </div>
             <div class="about-text">
                 <h2>About Me</h2>
-                <p>フリーランスエンジニアとして、Web開発の世界で活動しています。</p>
-                <p>特にフロントエンド開発を得意とし、ユーザー体験を重視した開発を心がけています。</p>
-                <p>Vue.jsやWordPressを中心に、モダンな技術を活用した開発を行っています。</p>
-                <p>個人開発では、ユーザーのニーズに応えた実用的なWebアプリケーションの開発に取り組んでいます。</p>
-                <p>常に新しい技術にアンテナを張り、より良いソリューションを提供できるよう努めています。</p>
+                <p>フリーランスエンジニアとして、Web開発・フロントエンド開発を中心にWebデザインなどもしています。</p>
+                <p>2023年から個人開発も始め、ユーザーのニーズに応えた実用的なWebアプリケーションの開発に取り組んでいます。</p>
+                <p>ただWEBサイトやサービスを作成するのではなく、その商品やサービスが1人でも多くの手に渡りブランドイメージ向上のお手伝いができる提案をさせていただいています。</p>
             </div>
         </div>
     </div>
@@ -41,7 +39,7 @@ get_header(); ?>
             <div class="timeline-item fade-in-section">
                 <div class="timeline-date">2020.8</div>
                 <div class="timeline-content">
-                    <h3>株式会社来図フォース入社</h3>
+                    <h3>株式会社ライズフォース入社</h3>
                     <p>Vue.jsを使用してのフロントエンド開発案件を経験</p>
                 </div>
             </div>
@@ -49,7 +47,7 @@ get_header(); ?>
                 <div class="timeline-date">2022.6</div>
                 <div class="timeline-content">
                     <h3>退社、再びフリーランスに</h3>
-                    <p>Vueを使用したフロントエンド案件、WordPressを使用したWEB政策案件を中心に活動</p>
+                    <p>Vueを使用したフロントエンド案件、WordPressを使用したWEB制作案件、Shopifyを使用したECサイト作成を中心に活動</p>
                 </div>
             </div>
             <div class="timeline-item fade-in-section">

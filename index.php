@@ -45,7 +45,7 @@
 <section class="work-top fade-in-section" id="work">
     <div class="container">
         <div class="top-work-title">
-            <h2 class="section-title">Work</h2>
+            <h2 class="section-title">Portfolio</h2>
         </div>
         <div class="work-slider">
             <div class="swiper work-swiper">
@@ -57,8 +57,8 @@
                             </div>
                             <div class="work-info">
                                 <span class="work-date">2024.02.13</span>
-                                <h3 class="work-title">Webアプリケーション開発</h3>
-                                <p class="work-description">Vue.jsを使用したモダンなWebアプリケーション開発</p>
+                                <h3 class="work-title">コーポレートサイト作成</h3>
+                                <p class="work-description">WordPressを使用した某造園会社コーポレートサイト</p>
                             </div>
                         </div>
                     </div>
@@ -69,8 +69,8 @@
                             </div>
                             <div class="work-info">
                                 <span class="work-date">2024.01.15</span>
-                                <h3 class="work-title">コーポレートサイト制作</h3>
-                                <p class="work-description">WordPressを使用した企業サイトの制作</p>
+                                <h3 class="work-title">ECサイト作成</h3>
+                                <p class="work-description">Shopifyを使用したコーヒー豆販売ECサイトの開発</p>
                             </div>
                         </div>
                     </div>
@@ -81,8 +81,8 @@
                             </div>
                             <div class="work-info">
                                 <span class="work-date">2023.12.20</span>
-                                <h3 class="work-title">LP制作</h3>
-                                <p class="work-description">HTML/CSSを使用したランディングページの制作</p>
+                                <h3 class="work-title">個人開発アプリ「中間くん」</h3>
+                                <p class="work-description">複数人の現在位置から移動距離や交通費が中間になる場所を割り出すサービス</p>
                             </div>
                         </div>
                     </div>
@@ -93,8 +93,8 @@
                             </div>
                             <div class="work-info">
                                 <span class="work-date">2023.10.15</span>
-                                <h3 class="work-title">ECサイト開発</h3>
-                                <p class="work-description">Shopifyを使用したECサイトの開発</p>
+                                <h3 class="work-title">個人開発アプリ「ダサオワ」</h3>
+                                <p class="work-description">AIが1万円以内であなたのコーディネートを考えるサービス</p>
                             </div>
                         </div>
                     </div>
@@ -105,20 +105,8 @@
                             </div>
                             <div class="work-info">
                                 <span class="work-date">2023.08.01</span>
-                                <h3 class="work-title">SNSアプリ開発</h3>
-                                <p class="work-description">Reactを使用したSNSアプリケーションの開発</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" data-modal="work6">
-                        <div class="work-item">
-                            <div class="work-image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="ポートフォリオ6">
-                            </div>
-                            <div class="work-info">
-                                <span class="work-date">2023.06.10</span>
-                                <h3 class="work-title">予約システム開発</h3>
-                                <p class="work-description">Laravel+Vueを使用した予約システムの開発</p>
+                                <h3 class="work-title">黒歴史の空地</h3>
+                                <p class="work-description">ネットネイティブの人たちや炎上が怖い人たち向けのネットを学ぶSNS</p>
                             </div>
                         </div>
                     </div>
@@ -153,16 +141,15 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pc1.jpg" alt="Webアプリケーション開発">
             </div>
             <div class="modal-info">
-                <h3>Webアプリケーション開発</h3>
-                <p class="modal-description">ユーザーフレンドリーなタスク管理アプリケーションの開発</p>
+                <h3>コーポレートサイト作成</h3>
+                <p class="modal-description">WordPressを使用したコーポレートサイト</p>
                 <div class="modal-tech">
                     <h4>使用技術</h4>
                     <ul>
-                        <li>フロントエンド: Vue.js, Vuex</li>
-                        <li>スタイリング: SCSS, Tailwind CSS</li>
-                        <li>バックエンド: Node.js, Express</li>
-                        <li>データベース: MongoDB</li>
-                        <li>開発環境: Docker, Git</li>
+                        <li>CMS: WordPress</li>
+                        <li>使用言語: HTML,CSS,JavaScript(jQuery),PHP</li>
+                        <li>デザイン作成:Adobe XD</li>
+                        <li>開発環境: Local by Flywheel,Git</li>
                     </ul>
                 </div>
             </div>
@@ -178,16 +165,15 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pc2.jpg" alt="コーポレートサイト制作">
             </div>
             <div class="modal-info">
-                <h3>コーポレートサイト制作</h3>
-                <p class="modal-description">モダンで高パフォーマンスな企業サイトの制作</p>
+                <h3>ECサイト制作</h3>
+                <p class="modal-description">Shopfiyを使用したECサイトの制作</p>
                 <div class="modal-tech">
                     <h4>使用技術</h4>
                     <ul>
-                        <li>CMS: WordPress</li>
-                        <li>テーマ開発: PHP, JavaScript</li>
-                        <li>スタイリング: SCSS</li>
-                        <li>プラグイン: ACF Pro, Contact Form 7</li>
-                        <li>開発環境: Local by Flywheel, Git</li>
+                        <li>CMS:Shopify</li>
+                        <li>使用言語:HTML,CSS,JavaScript(jQuery)</li>
+                        <li>デザイン作成:Adobe ilastrater</li>
+                        <li>開発環境:Git</li>
                     </ul>
                 </div>
             </div>
@@ -203,16 +189,14 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="LP制作">
             </div>
             <div class="modal-info">
-                <h3>LP制作</h3>
-                <p class="modal-description">高いコンバージョン率を実現するランディングページの制作</p>
+                <h3>中間くん</h3>
+                <p class="modal-description">複数人の現在位置から移動距離や交通費が中間になる場所を割り出すサービス</p>
                 <div class="modal-tech">
                     <h4>使用技術</h4>
                     <ul>
-                        <li>フロントエンド: HTML5, CSS3</li>
-                        <li>インタラクション: JavaScript, jQuery</li>
-                        <li>レスポンシブデザイン: Media Queries</li>
-                        <li>アニメーション: GSAP</li>
-                        <li>開発環境: VS Code, Git</li>
+                        <li>フロントエンド: HTML,CSS,JavaScript(Vue)</li>
+                        <li>データベース:Firebase</li>
+                        <li>開発環境:Git</li>
                     </ul>
                 </div>
             </div>
@@ -228,17 +212,14 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="ECサイト開発">
             </div>
             <div class="modal-info">
-                <h3>ECサイト開発</h3>
-                <p class="modal-description">カスタマイズ性の高いECサイトの開発とデザイン</p>
+                <h3>ダサオワ</h3>
+                <p class="modal-description">AIが1万円以内であなたのコーディネートを考えるサービス</p>
                 <div class="modal-tech">
                     <h4>使用技術</h4>
                     <ul>
-                        <li>プラットフォーム: Shopify</li>
-                        <li>カスタマイズ: Liquid, JavaScript</li>
-                        <li>スタイリング: SCSS</li>
-                        <li>決済システム: Stripe連携</li>
-                        <li>開発環境: Shopify CLI, Git</li>
-                    </ul>
+                        <li>フロントエンド: HTML,CSS,JavaScript(Vue)</li>
+                        <li>データベース:Firebase</li>
+                        <li>開発環境:Git</li>
                 </div>
             </div>
         </div>
@@ -253,16 +234,14 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/enginer2.jpg" alt="SNSアプリ開発">
             </div>
             <div class="modal-info">
-                <h3>SNSアプリ開発</h3>
-                <p class="modal-description">リアルタイムコミュニケーションを実現するSNSアプリケーション</p>
+                <h3>黒歴史の空地</h3>
+                <p class="modal-description">ネットネイティブの人たちや炎上が怖い人たち向けのネットを学ぶSNS</p>
                 <div class="modal-tech">
                     <h4>使用技術</h4>
                     <ul>
-                        <li>フロントエンド: React, Redux</li>
-                        <li>バックエンド: Firebase</li>
-                        <li>リアルタイム通信: WebSocket</li>
-                        <li>UI/UXデザイン: Material-UI</li>
-                        <li>開発環境: Create React App, Git</li>
+                        <li>フロントエンド: HTML,CSS,JavaScript(Vue)</li>
+                        <li>データベース:Firebase</li>
+                        <li>開発環境:Git</li>
                     </ul>
                 </div>
             </div>
@@ -270,29 +249,5 @@
     </div>
 </div>
 
-<div class="modal" id="work6">
-    <div class="modal-content">
-        <span class="modal-close">&times;</span>
-        <div class="modal-body">
-            <div class="modal-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="予約システム開発">
-            </div>
-            <div class="modal-info">
-                <h3>予約システム開発</h3>
-                <p class="modal-description">使いやすさを重視した予約管理システム</p>
-                <div class="modal-tech">
-                    <h4>使用技術</h4>
-                    <ul>
-                        <li>バックエンド: Laravel</li>
-                        <li>フロントエンド: Vue.js, Vuex</li>
-                        <li>データベース: MySQL</li>
-                        <li>認証: Laravel Sanctum</li>
-                        <li>開発環境: Docker, Git</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <?php get_footer(); ?> 

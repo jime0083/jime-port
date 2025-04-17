@@ -22,46 +22,23 @@ get_header(); ?>
     
     <div class="container">
         <div class="service-content">
-            <h2 class="service-title">DEVELOPMENT SERVICE <span class="service-title-jp">受託開発サービス</span></h2>
+            <h2 class="service-title">Website Creation <span class="service-title-jp">WEBサイト作成</span></h2>
             <p class="service-description">
-                当社では、主にスマートフォン向けソフトウェアの受託開発を行っています。多くの実績で培った制御フローや品質向上への取り組み、その後の迅速なサポートなど、お客様の状況に応じた技術を提供致します。低予算で速度を重視するようなニーズでもより良いものが作れるよう、お客様と一緒に開発を行っています。
+                主にWordPressを使用したコーポレートサイトやShopfiyを使用したECサイト、LPの作成をしています。
             </p>
         </div>
     </div>
     <div class="current-achievements">
-                    <h3>現行の主な実績</h3>
+                    <h3>主な実績</h3>
                     <ul>
-                        <li>カーナビアプリ開発（Android/iOS:Java,Objective-C）でそれぞれ4種類</li>
-                        <li>公共系サービスアプリ開発（Android/iOS:Java,Objective-C）</li>
-                        <li>インフラ情報表示アプリ開発(AWS:Java/JavaScript/PHP)</li>
-                        <li>シミュレーション・情報管理アプリ開発（Android/iOS:Java,Objective-C）</li>
+                        <li>某造園会社コーポレートサイト作成（Android/iOS:Java,Objective-C）</li>
+                        <li>某IT系企業コーポレートサイト作成（Android/iOS:Java,Objective-C）</li>
+                        <li>某コーヒー豆販売ECサイト作成（Android/iOS:Java,Objective-C）</li>
+                        <li>某英会話学習サービスLP作成(AWS:Java/JavaScript/PHP)</li>
                     </ul>
     </div>
 </div>
 
-<div class="development-service-section fade-in-section">
-    <div class="service-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/enginer2.jpg" >
-    </div>
-    
-    <div class="container">
-        <div class="service-content">
-            <h2 class="service-title">DEVELOPMENT SERVICE <span class="service-title-jp">受託開発サービス</span></h2>
-            <p class="service-description">
-                当社では、主にスマートフォン向けソフトウェアの受託開発を行っています。多くの実績で培った制御フローや品質向上への取り組み、その後の迅速なサポートなど、お客様の状況に応じた技術を提供致します。低予算で速度を重視するようなニーズでもより良いものが作れるよう、お客様と一緒に開発を行っています。
-            </p>
-        </div>
-    </div>
-    <div class="current-achievements">
-                    <h3>現行の主な実績</h3>
-                    <ul>
-                        <li>カーナビアプリ開発（Android/iOS:Java,Objective-C）でそれぞれ4種類</li>
-                        <li>公共系サービスアプリ開発（Android/iOS:Java,Objective-C）</li>
-                        <li>インフラ情報表示アプリ開発(AWS:Java/JavaScript/PHP)</li>
-                        <li>シミュレーション・情報管理アプリ開発（Android/iOS:Java,Objective-C）</li>
-                    </ul>
-    </div>
-</div>
 
 <div class="development-service-section fade-in-section">
     <div class="service-image">
@@ -70,19 +47,18 @@ get_header(); ?>
     
     <div class="container">
         <div class="service-content">
-            <h2 class="service-title">DEVELOPMENT SERVICE <span class="service-title-jp">受託開発サービス</span></h2>
+            <h2 class="service-title">FrontEnd Development <span class="service-title-jp">フロントエンド開発</span></h2>
             <p class="service-description">
-                当社では、主にスマートフォン向けソフトウェアの受託開発を行っています。多くの実績で培った制御フローや品質向上への取り組み、その後の迅速なサポートなど、お客様の状況に応じた技術を提供致します。低予算で速度を重視するようなニーズでもより良いものが作れるよう、お客様と一緒に開発を行っています。
+                主にVue.jsを使用したWebサービスの開発をしています
             </p>
         </div>
     </div>
     <div class="current-achievements">
                     <h3>現行の主な実績</h3>
                     <ul>
-                        <li>カーナビアプリ開発（Android/iOS:Java,Objective-C）でそれぞれ4種類</li>
-                        <li>公共系サービスアプリ開発（Android/iOS:Java,Objective-C）</li>
-                        <li>インフラ情報表示アプリ開発(AWS:Java/JavaScript/PHP)</li>
-                        <li>シミュレーション・情報管理アプリ開発（Android/iOS:Java,Objective-C）</li>
+                        <li>某設計toB向けアプリ（Android/iOS:Java,Objective-C）</li>
+                        <li>某カーシェアtoC向けアプリ（Android/iOS:Java,Objective-C）</li>
+                        <li>某アンケートアプリ(AWS:Java/JavaScript/PHP)</li>
                     </ul>
     </div>
 </div>
@@ -94,19 +70,18 @@ get_header(); ?>
     
     <div class="container">
         <div class="service-content">
-            <h2 class="service-title">DEVELOPMENT SERVICE <span class="service-title-jp">受託開発サービス</span></h2>
+            <h2 class="service-title">Personal Development <span class="service-title-jp">個人開発</span></h2>
             <p class="service-description">
-                当社では、主にスマートフォン向けソフトウェアの受託開発を行っています。多くの実績で培った制御フローや品質向上への取り組み、その後の迅速なサポートなど、お客様の状況に応じた技術を提供致します。低予算で速度を重視するようなニーズでもより良いものが作れるよう、お客様と一緒に開発を行っています。
+                個人でWebアプリを開発しデザインからグロースハックまで1人で行っています
             </p>
         </div>
     </div>
     <div class="current-achievements">
                     <h3>現行の主な実績</h3>
                     <ul>
-                        <li>カーナビアプリ開発（Android/iOS:Java,Objective-C）でそれぞれ4種類</li>
-                        <li>公共系サービスアプリ開発（Android/iOS:Java,Objective-C）</li>
-                        <li>インフラ情報表示アプリ開発(AWS:Java/JavaScript/PHP)</li>
-                        <li>シミュレーション・情報管理アプリ開発（Android/iOS:Java,Objective-C）</li>
+                        <li><a href="">中間くん</a></li>
+                        <li><a href="">ダサオワ</a></li>
+                        <li><a href="">黒歴史の空地</a></li>
                     </ul>
     </div>
 </div>
