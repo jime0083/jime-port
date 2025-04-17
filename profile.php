@@ -47,7 +47,7 @@ get_header(); ?>
                 <div class="timeline-date">2022.6</div>
                 <div class="timeline-content">
                     <h3>退社、再びフリーランスに</h3>
-                    <p>Vueを使用したフロントエンド案件、WordPressを使用したWEB制作案件、Shopifyを使用したECサイト作成を中心に活動</p>
+                    <p>Vue.jsを使用したフロントエンド案件、WordPressを使用したWEB制作案件、Shopifyを使用したECサイト作成を中心に活動</p>
                 </div>
             </div>
             <div class="timeline-item fade-in-section">
